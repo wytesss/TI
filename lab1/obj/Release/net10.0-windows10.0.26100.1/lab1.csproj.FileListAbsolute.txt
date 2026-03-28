@@ -1,0 +1,10 @@
+E:\University\TI\lab1\obj\Release\net10.0-windows10.0.26100.1\lab1.Form1.resources
+E:\University\TI\lab1\obj\Release\net10.0-windows10.0.26100.1\lab1.csproj.GenerateResource.cache
+E:\University\TI\lab1\obj\Release\net10.0-windows10.0.26100.1\lab1.GeneratedMSBuildEditorConfig.editorconfig
+E:\University\TI\lab1\obj\Release\net10.0-windows10.0.26100.1\lab1.AssemblyInfoInputs.cache
+E:\University\TI\lab1\obj\Release\net10.0-windows10.0.26100.1\lab1.AssemblyInfo.cs
+E:\University\TI\lab1\obj\Release\net10.0-windows10.0.26100.1\lab1.csproj.CoreCompileInputs.cache
+E:\University\TI\lab1\obj\Release\net10.0-windows10.0.26100.1\lab1.sourcelink.json
+E:\University\TI\lab1\obj\Release\net10.0-windows10.0.26100.1\lab1.dll
+E:\University\TI\lab1\obj\Release\net10.0-windows10.0.26100.1\refint\lab1.dll
+E:\University\TI\lab1\obj\Release\net10.0-windows10.0.26100.1\lab1.pdb

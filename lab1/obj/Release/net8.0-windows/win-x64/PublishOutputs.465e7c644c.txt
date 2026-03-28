@@ -1,0 +1,2 @@
+E:\University\TI\lab1\bin\Release\net8.0-windows\win-x64\publish\lab1.pdb
+E:\University\TI\lab1\bin\Release\net8.0-windows\win-x64\publish\lab1.exe

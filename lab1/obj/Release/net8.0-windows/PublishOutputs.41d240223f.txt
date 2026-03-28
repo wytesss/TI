@@ -1,0 +1,5 @@
+E:\University\TI\lab1\bin\Release\net8.0-windows\publish\lab1.exe
+E:\University\TI\lab1\bin\Release\net8.0-windows\publish\lab1.dll
+E:\University\TI\lab1\bin\Release\net8.0-windows\publish\lab1.deps.json
+E:\University\TI\lab1\bin\Release\net8.0-windows\publish\lab1.runtimeconfig.json
+E:\University\TI\lab1\bin\Release\net8.0-windows\publish\lab1.pdb
