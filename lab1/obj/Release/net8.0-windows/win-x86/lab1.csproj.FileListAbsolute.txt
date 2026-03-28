@@ -1,0 +1,17 @@
+E:\University\TI\lab1\bin\Release\net8.0-windows\win-x86\lab1.exe
+E:\University\TI\lab1\bin\Release\net8.0-windows\win-x86\lab1.deps.json
+E:\University\TI\lab1\bin\Release\net8.0-windows\win-x86\lab1.runtimeconfig.json
+E:\University\TI\lab1\bin\Release\net8.0-windows\win-x86\lab1.dll
+E:\University\TI\lab1\bin\Release\net8.0-windows\win-x86\lab1.pdb
+E:\University\TI\lab1\obj\Release\net8.0-windows\win-x86\lab1.Form1.resources
+E:\University\TI\lab1\obj\Release\net8.0-windows\win-x86\lab1.csproj.GenerateResource.cache
+E:\University\TI\lab1\obj\Release\net8.0-windows\win-x86\lab1.GeneratedMSBuildEditorConfig.editorconfig
+E:\University\TI\lab1\obj\Release\net8.0-windows\win-x86\lab1.AssemblyInfoInputs.cache
+E:\University\TI\lab1\obj\Release\net8.0-windows\win-x86\lab1.AssemblyInfo.cs
+E:\University\TI\lab1\obj\Release\net8.0-windows\win-x86\lab1.csproj.CoreCompileInputs.cache
+E:\University\TI\lab1\obj\Release\net8.0-windows\win-x86\lab1.sourcelink.json
+E:\University\TI\lab1\obj\Release\net8.0-windows\win-x86\lab1.dll
+E:\University\TI\lab1\obj\Release\net8.0-windows\win-x86\refint\lab1.dll
+E:\University\TI\lab1\obj\Release\net8.0-windows\win-x86\lab1.pdb
+E:\University\TI\lab1\obj\Release\net8.0-windows\win-x86\lab1.genruntimeconfig.cache
+E:\University\TI\lab1\obj\Release\net8.0-windows\win-x86\ref\lab1.dll
