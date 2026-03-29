@@ -22,7 +22,7 @@ namespace lab2
         public int NextBit()
         {
             uint keyBit = (_state >> 25) & 1;
-            uint newBit = ((_state >> 7) & 1) ^ ((_state >> 6) & 1) ^ (_state & 1);
+            uint newBit = (_state >> 25) & 1 ^ ((_state >> 7) & 1) ^ ((_state >> 6) & 1) ^ (_state & 1);
             _state = ((_state << 1) | newBit) & Mask26;
             return (int)keyBit;
         }
