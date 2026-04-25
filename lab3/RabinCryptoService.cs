@@ -160,7 +160,7 @@ namespace lab3_Rabin
             // D = (b^2 + 4c) mod n
             BigInteger d = Mod(b * b + 4 * c, n);
             // Корни по p и q для простых вида 4k+3.
-            // ВНИМАНИЕ: степень вычисляется не "в лоб", а через ModPow (быстрое возведение в степень).
+            // степень вычисляется  через ModPow (быстрое возведение в степень).
             BigInteger mp = ModPow(d, (p + 1) / 4, p);
             BigInteger mq = ModPow(d, (q + 1) / 4, q);
 
@@ -234,7 +234,6 @@ namespace lab3_Rabin
         private static BigInteger ModPow(BigInteger value, BigInteger exponent, BigInteger modulus)
         {
             // Быстрое возведение в степень по модулю (binary exponentiation).
-            // Это и есть реализация "алгоритма быстрого возведения в степень".
             BigInteger result = 1;
             BigInteger baseValue = Mod(value, modulus);
             BigInteger exp = exponent;
