@@ -71,8 +71,8 @@ namespace lab2
             var plainSb = new StringBuilder(totalBits);
             var cipherSb = new StringBuilder(totalBits);
 
-            var first15 = new StringBuilder(15);
-            var last15Ring = new char[15];
+            var first15 = new StringBuilder(64);
+            var last15Ring = new char[64];
             int ringPos = 0;
 
             using var input = new FileStream(inputPath, FileMode.Open, FileAccess.Read, FileShare.Read, BufferSize, FileOptions.SequentialScan);
@@ -123,17 +123,17 @@ namespace lab2
             {
                 char ch = keyBit == 1 ? '1' : '0';
 
-                if (totalBits <= 30)
+                if (totalBits <= 128)
                 {
                     first15.Append(ch);
                     return;
                 }
 
-                if (bitIndex < 15)
+                if (bitIndex < 64)
                     first15.Append(ch);
 
                 last15Ring[ringPos] = ch;
-                ringPos = (ringPos + 1) % 15;
+                ringPos = (ringPos + 1) % 64;
             }
             /// <summary>
             /// Генерирует отображаемую строку из первых и последних бит ключа.
@@ -144,12 +144,12 @@ namespace lab2
                 char[] last15Ring,
                 int ringPos)
             {
-                if (totalBits <= 30)
+                if (totalBits <= 128)
                     return first15.ToString();
 
-                var last = new StringBuilder(15);
-                for (int k = 0; k < 15; k++)
-                    last.Append(last15Ring[(ringPos + k) % 15]);
+                var last = new StringBuilder(64);
+                for (int k = 0; k < 64; k++)
+                    last.Append(last15Ring[(ringPos + k) % 64]);
 
                 return first15.ToString() + " ... " + last.ToString();
             }

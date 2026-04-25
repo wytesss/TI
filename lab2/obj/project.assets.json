@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\University\\TI\\lab2\\lab2.csproj",
+      "projectUniqueName": "E:\\University\\TI labs git\\TI\\lab2\\lab2.csproj",
       "projectName": "lab2",
-      "projectPath": "E:\\University\\TI\\lab2\\lab2.csproj",
+      "projectPath": "E:\\University\\TI labs git\\TI\\lab2\\lab2.csproj",
       "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "E:\\University\\TI\\lab2\\obj\\",
+      "outputPath": "E:\\University\\TI labs git\\TI\\lab2\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
